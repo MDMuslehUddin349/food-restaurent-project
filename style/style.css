@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+font-family: "Work Sans",
+serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* btn styles */
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  gap: 10;
+  padding: 21px 32px 21px 32px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+
+}
+
+.btn-container .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.btn-sells {
+  display: flex;
+}
+
+.btn-sells .btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* hero section of hero  content styles */
+#hero {
+  height: 974px;
+  background-image: linear-gradient(0deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%), url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 1084px;
+
+}
+
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 16px;
+
+}
+
+#hero .hero-content .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+
+/* card-box styles */
+
+#card-box .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#card-box {
+  height: 784px;
+  width: 1399px;
+  margin: 120px 320px;
+
+}
+
+
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* card-container styles */
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Work Sans;
+
+}
+
+/* card styles */
+.card {
+  max-width: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card .img-box {
+  width: 449px;
+  border-radius: 16px;
+
+  background: url(Rectangle 1);
+}
+
+.card .img-box .img {
+  width: 100%;
+  border-radius: 16px;
+
+  background: url(Rectangle 1);
+}
+
+.card .shop {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 14px 32px 14px 32px;
+
+}
+
+.card .shop a {
+  text-decoration: none;
+  color: black;
+}
+
+/* social-section */
+#social {
+  width: 2035px;
+  height: 711px;
+  background: rgb(255, 255, 255);
+}
+
+#social .social-container {
+  display: flex;
+}
+
+#social .img-r {
+  width: 1017px;
+  height: 355px;
+
+}
+
+.about-us {
+  width: 800px;
+  height: 355px;
+  margin: 32px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.about-us h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.about-us p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+
+}
+
+.about-us .button-container {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  padding: 30px 10px 30px 10px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  opacity: 0.7;
+  margin-top: 40px;
+
+}
+
+.about-us .icon {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  gap: 32px;
+  margin-left: 380px;
+  margin-top: 40px;
+}
+
+/* .about-us .facebook {
+  background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%);
+} */
